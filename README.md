@@ -20,3 +20,15 @@ NOTE: Disable this script for all builds other than iOS.
 
 ###### Version 1.2
 -Changed the gravity force, mass of duck, as well as tap force to create a more balanced and fluid game. Duck movement now feels much better.
+
+NOTE: the iOS build folder does not contain the actual build files, I had to remove them since they were too large. (This goes for all versions)
+You can create the build by going to: File -> Build Settings -> Build (Make sure iOS is selected)
+Also make sure that the Scene Controller script is enabled before you do this. 
+
+
+### To Do
+-Add sound sound effects (when tapping on the screen to move duck, when duck scores a point, and when duck dies)
+
+-Add more UI elements
+
+-Can also try for a samsung TV build
