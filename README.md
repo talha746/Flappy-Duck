@@ -7,9 +7,9 @@ The game consists of a duck maneuvering through pipes and when it gets through e
 There is only one scene but with three pages: the start page, the countdown page and the game over page. In the start page, the highscore is shown at the bottom of the screen and gets updated if the score acheived is ever greater than the saved highscore. The current score is at the top and is initially 0 and increments by 1 every time the duck successfully makes it through a pipe. To start the game, you tap the play button right underneath the highscore text and then a count down text shows up, counting down from 3 (this is the countdown page). The game ends when the duck hits either any of the pipes or the ground, this results in the gameover page which displays the text "Game Over" with a replay button underneath it. When the replay button is tapped, it takes you back to the start page. 
 
 
-### Version Changes
+### Changelog
 
-###### Version 1
+###### Version 1.0
 -Initial roll out of game, stable build. 
 
 ###### Version 1.1
@@ -20,6 +20,10 @@ NOTE: Disable this script for all builds other than iOS.
 
 ###### Version 1.2
 -Changed the gravity force, mass of duck, as well as tap force to create a more balanced and fluid game. Duck movement now feels much better.
+
+###### Version 1.3
+-Further improvements to tap force of the duck and the spawn rate of the pipes (to spread them out just a bit more).
+-Also adjusted ducks tilt smooth speed (resulting in less tilt when duck is falling)
 
 NOTE: the iOS build folder does not contain the actual build files, I had to remove them since they were too large. (This goes for all versions)
 You can create the build by going to: File -> Build Settings -> Build (Make sure iOS is selected)
